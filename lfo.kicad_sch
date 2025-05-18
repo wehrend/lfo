@@ -3567,12 +3567,6 @@
 		(uuid "6395453d-d885-44ca-aa77-093d45a62538")
 	)
 	(junction
-		(at 53.34 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6edc6b03-0813-419c-9268-fa36c76f9fa7")
-	)
-	(junction
 		(at 55.88 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3589,6 +3583,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82e33295-da43-4fe7-86f1-3fbf6bff0e47")
+	)
+	(junction
+		(at 53.34 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c568306-32db-43d0-91cf-c9f001f13516")
 	)
 	(junction
 		(at 85.09 57.15)
@@ -4424,16 +4424,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 85.09) (xy 69.85 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2eb78b5-6dda-4b65-969c-cfa6badc4edd")
-	)
-	(wire
-		(pts
 			(xy 24.13 182.88) (xy 36.83 182.88)
 		)
 		(stroke
@@ -4711,6 +4701,16 @@
 			(type default)
 		)
 		(uuid "db6ac03d-2e6a-47f3-8d01-b7b8989b1d22")
+	)
+	(wire
+		(pts
+			(xy 53.34 85.09) (xy 69.85 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7dad81-d1dd-4000-a1fc-617ac9d419ec")
 	)
 	(wire
 		(pts
@@ -5936,75 +5936,6 @@
 			(project "lfo"
 				(path "/b92c6e1c-e1cf-44ca-9819-a132a581d6b6"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 248.92 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44241bfc-816e-4f41-8125-3f2568737716")
-		(property "Reference" "C6"
-			(at 252.73 22.8599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nFC"
-			(at 252.73 25.3999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D9.0mm_W2.5mm_P5.00mm"
-			(at 249.8852 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 248.92 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e70cc87-bbf8-4af5-b83b-deaac4f5dac0")
-		)
-		(pin "2"
-			(uuid "6196eb57-5186-44da-9e09-4c762c48a67a")
-		)
-		(instances
-			(project ""
-				(path "/b92c6e1c-e1cf-44ca-9819-a132a581d6b6"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8622,7 +8553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P3.81mm_Vertical_AnodeUp"
 			(at 48.26 164.465 0)
 			(effects
 				(font
